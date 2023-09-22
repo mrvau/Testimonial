@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+:root {
+    /* Primary */
+    --main-color-1: hsl(263, 55%, 52%);
+    --main-color-2: hsl(217, 19%, 35%);
+    --main-color-3: hsl(219, 29%, 14%);
+
+    /* Neutral */
+
+    --light-1: hsl(0, 0%, 81%);
+    --light-2: hsl(210, 46%, 95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+p {
+    color: var(--light-1);
+}
+
+.container {
+    height: 100vh;
+    padding: 120px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-2);
+}
+
+.content {
+    margin: 20px 40px;
+}
+
+#section-1 {
+    position: absolute;
+    background-color: var(--main-color-1);
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: 340px;
+    width: 563px;
+    height: 270px;
+    border-radius: 10px;
+    float: left;
+    display: flex;
+}
+
+#section-1 .content h1 {
+    color: #fff;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+#section-1 .content h4 {
+    position: relative;
+    color: var(--light-2);
+    float: right;
+    right: 370px;
+}
+
+#section-1 .content h5 {
+    color: var(--light-1);
+    position: relative;
+    float: right;
+    right: 295px;
+    top: 18px;
+}
+
+
+#section-2 {
+    position: absolute;
+    background-color: var(--main-color-2);
+    width: 282px;
+    height: 270px;
+    right: 350px;
+    border-radius: 10px;
+    display: flex;
+}
+
+#section-2 .content h1 {
+    color: #fff;
+    padding: 0;
+    font-size: 20px;
+    margin: -14px 0 15px 0;
+}
+
+#section-2 .content h4 {
+    position: relative;
+    color: var(--light-2);
+    right: -40px;
+    top: -34px;
+}
+
+#section-2 .content h5 {
+    position: relative;
+    color: var(--light-1);
+    right: -40px;
+    top: -30px;
+}
+
+
+#section-3 {
+    position: absolute;
+    background-color: #fff;
+    width: 282px;
+    height: 570px;
+    border-radius: 10px;
+    display: flex;
+    right: 35px;
+}
+
+#section-3 .content h1 {
+    color: var(--main-color-3);
+    font-size: 20px;
+    margin: -14px 0 15px 0;
+}
+
+#section-3 .content h4 {
+    position: relative;
+    color: var(--main-color-3);
+    right: -40px;
+    top: -34px;
+}
+
+#section-3 .content h5 {
+    position: relative;
+    color: var(--light-1);
+    right: -40px;
+    top: -30px;
+}
+
+
+#section-4 {
+    position: absolute;
+    background-color: #fff;
+    width: 282px;
+    height: 270px;
+    border-radius: 10px;
+    display: flex;
+    top: 420px;
+}
+
+#section-4 .content h1 {
+    color: var(--main-color-2);
+    font-size: 20px;
+    margin: -14px 0 15px 0;
+}
+
+#section-4 .content h4 {
+    position: relative;
+    color: var(--main-color-2);
+    right: -40px;
+    top: -34px;
+}
+
+#section-4 .content h5 {
+    position: relative;
+    color: var(--light-1);
+    right: -40px;
+    top: -30px;
+}
+
+#section-4 .content p {
+    margin-top: 40px;
+}
+
+#section-5 {
+    position: absolute;
+    background-color: var(--main-color-3);
+    width: 563px;
+    height: 270px;
+    border-radius: 10px;
+    display: flex;
+    left: 435px;
+    top: 420px;
+}
+
+#section-5 .content h1 {
+    color: var(--light-2);
+    font-size: 20px;
+    margin: -14px 0 15px 0;
+}
+
+#section-5 .content h4 {
+    position: relative;
+    color: var(--main-color-2);
+    right: -40px;
+    top: -34px;
+}
+
+#section-5 .content h5 {
+    position: relative;
+    color: var(--light-1);
+    right: -40px;
+    top: -30px;
+}
+
+
+
